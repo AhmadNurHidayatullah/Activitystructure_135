@@ -37,6 +37,7 @@ int main() {
     cout << "\nKota = " << mhs.alamat.kota;
     cout << "\nUmur = " << mhs.umur;
 }
+
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
