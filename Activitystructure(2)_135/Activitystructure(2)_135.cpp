@@ -30,6 +30,12 @@ int main() {
     cin >> mhs.alamat.kota;
     cout << "Masukan Umur : ";
     cin >> mhs.umur;
+
+    cout << "\n\nNIM = " << mhs.NIM;
+    cout << "\nNama = " << mhs.nama;
+    cout << "\nDesa = " << mhs.alamat.desa;
+    cout << "\nKota = " << mhs.alamat.kota;
+    cout << "\nUmur = " << mhs.umur;
 }
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
