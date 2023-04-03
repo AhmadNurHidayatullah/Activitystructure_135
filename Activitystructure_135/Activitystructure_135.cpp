@@ -32,12 +32,13 @@ int main() {
     cout << "\nAlamat = " << mhs1.alamat;
     cout << "\nUmur = " << mhs1.umur;
 
+    cout << "\n\nNIM = " << mhs2.NIM;
+    cout << "\nNama = " << mhs2.nama;
+    cout << "\nAlamat = " << mhs2.alamat;
+    cout << "\nUmur = " << mhs2.umur;
 
 }
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
