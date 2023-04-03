@@ -15,6 +15,22 @@ struct Mahasiswa
     int umur;
 };
 
+
+int main() {
+    Mahasiswa mhs;
+
+    cout << "masukan NIM :";
+    cin >> mhs.NIM;
+    cout << "Masukan Nama :";
+    cin >> mhs.nama;
+    cout << "Alamat :";
+    cout << "\n\tMasukan Desa :";
+    cin >> mhs.alamat.desa;
+    cout << "\tMasukan kota :";
+    cin >> mhs.alamat.kota;
+    cout << "Masukan Umur : ";
+    cin >> mhs.umur;
+}
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
